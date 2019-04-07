@@ -5,7 +5,8 @@
   "description": "This extension modifies the active tab.",
   "background": {
     "scripts": [
-      "popitup.js"
+      "popitup.js",
+      "contentScript.js"
     ],
     "persistent": true
   },
