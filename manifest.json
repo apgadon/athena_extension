@@ -1,0 +1,20 @@
+{
+  "name": "Window Extension",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "This extension modifies the active tab.",
+  "background": {
+    "scripts": [
+      "popitup.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Popup"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
